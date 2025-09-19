@@ -5,6 +5,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(50%);
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+
+#main-tittle{
+    color: aliceblue;
+}
+
+#main-text{
+    color: aliceblue;
 }
 
 #quienes{
@@ -82,4 +94,28 @@
 
 input{
     width: 100%;
+}
+
+#seguir {
+    text-align: center;
+}
+
+#title3 {
+    margin: 3rem;
+}
+
+#ubi{
+    width: 80%;
+    height: 20rem;
+    margin-left: 10rem;
+}
+
+.text2{
+    text-align: center ;
+}
+
+footer{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    padding: 3rem;
 }
