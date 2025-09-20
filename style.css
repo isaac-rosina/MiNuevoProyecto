@@ -1,46 +1,66 @@
+.navbar{
+    background-color: black;
+}
 
-.img-inicio{
+#inicio {
+  position: relative;
+}
+
+.img-inicio {
     background-image: url(img/Usain\ Bolt.png);
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(50%);
-    
-    display: flex;
-    justify-content: center;  
-    align-items: center;  
+}
+
+#main-div {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
 }
 
 #main-tittle{
-    color: aliceblue;
+    color: rgb(255, 145, 0);
+    text-shadow: 4px 4px 5px black, 0px 0px 25px #00e1ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #main-text{
     color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #quienes{
-    background-color:powderblue;
-    padding: 1rem;
+    background-color:#F5F5F5;
+    padding: 2rem;
 }
 
-#texto1{
+#carta{
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rgb(213, 233, 235);
+    background-color: rgb(203, 203, 203);
     margin-bottom: 1rem;
 }
 
 #tittle{
-    color:rgb(203, 132, 0);
+    color:#007BFF;
+    text-shadow: 2px 2px #002f61;
     text-align: center ;
     padding: 1rem;
-    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .text{
+    color: #2C2C2C;
     margin: 0.5rem;
-    text-align: justify;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
 #filas{
@@ -49,17 +69,26 @@
 
 .tittle2{
     text-align: center ;
-    padding-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .row{
-    padding: 1rem;
+    padding: 0.5rem;
     justify-content: space-evenly;
     align-items:center;
 }   
 
-.rowPrenda{
+#prendas{
+    padding: 2rem;
+}
+
+#rowPrenda{
     margin: 1rem;
+}
+
+#prendas .card {
+    border: 4px solid #c2bebe;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card:hover{
@@ -67,16 +96,19 @@
 }
 
 #contacto{
-    background-color: skyblue;
+    background-color:rgb(176, 176, 176);
+    padding: 2rem;
 }
 
 .title{
     text-align: center;
-    padding-top:1rem ;
+    color: #007BFF;
+    text-shadow: 2px 2px black  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .form{
-    background-color:slateblue;
+    background-color: #668bb3;
     border-radius: 10px;
     padding: 1rem;
     width: 100%;
@@ -85,7 +117,7 @@
 
 .texto-formulario{
     text-align: center;
-    color: turquoise;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .form-group{
@@ -94,6 +126,8 @@
 
 input{
     width: 100%;
+    height: 2rem;
+    border: 2px solid lightgrey;
 }
 
 #seguir {
@@ -102,20 +136,40 @@ input{
 
 #title3 {
     margin: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ubicacion{
+    padding: 2rem;
 }
 
 #ubi{
     width: 80%;
     height: 20rem;
     margin-left: 10rem;
+    border-radius: 5px;
+}
+
+.card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 .text2{
     text-align: center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer{
     background-color: rgb(42, 42, 42);
     color: white;
     padding: 3rem;
+    font-size: 1rem;
+}
+
+footer p a {
+    color: #32CD32;
+}
+
+footer p a:hover{
+    color: #FF6600;
 }
