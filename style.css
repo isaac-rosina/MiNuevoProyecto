@@ -197,7 +197,7 @@ footer p a:hover {
     color: #FF6600;
 }
 
-/* PESTAÑA CALZADO ---------------------------------------------------*/
+/* PESTAÑAS PRODUCTOS ---------------------------------------------------*/
 
 .descubri {
     margin: 2rem;
@@ -286,4 +286,39 @@ footer p a:hover {
     text-align: center;
     font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CONTACTOS ------------------------------------------------------------------*/
+
+#Contact-background{
+    background-color: #e6e6e6;
+}
+
+.contact-title{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#redes .text{
+    font-size: 1rem;
+}
+
+.list-group{
+    width: 30rem;
+}
+
+.list-group a{
+    margin: 1rem 0px;
+}
+
+#Contact-background hr{
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#horarios{
+    text-align: center;
+    margin: 1rem;
 }
