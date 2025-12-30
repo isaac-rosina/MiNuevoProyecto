@@ -21,7 +21,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio <i class="fa-solid fa-house"></i> </a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio <i class="fa-solid fa-house"></i>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Nosotros.html">Sobre Nosotros <i class="fa-solid fa-thumbs-up"></i> </a>
@@ -41,7 +42,8 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contacto.html" aria-disabled="true">Contacto <i class="fa-solid fa-comment"></i></a>
+            <a class="nav-link" href="Contacto.html" aria-disabled="true">Contacto <i
+                class="fa-solid fa-comment"></i></a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -213,17 +215,20 @@
             <div class="form-group">
               <input type="text" placeholder="Ingrese Contraseña">
             </div>
-          <button class="btn btn-success" type="submit">Enviar</button>
+            <button class="btn btn-success" type="submit">Enviar</button>
           </div>
-          
+
         </div>
         <div class="col-sm-6" id="seguir">
           <h3 id="title3">SEGUINOS EN NUESTRAS REDES</h3>
           <p class="text">No te pierdas las últimas novedades, lanzamientos y promociones exclusivas.
-          Compartimos tips de entrenamiento, inspiración deportiva y mucho más.</p>
-          <p class="text"> <i class="fa-brands fa-youtube"></i> Youtube: <a href="" style="color: black;">Indumentarias Deportivas</a></p>
-          <p class="text"> <i class="fa-solid fa-camera"></i> Instagram: <a href="" style="color: black;">Indumentarias_Deportivas</a></p>
-          <p class="text"> <i class="fa-brands fa-facebook"></i> Facebook: <a href="" style="color: black;">Indumentarias.Deportivas</a></p>
+            Compartimos tips de entrenamiento, inspiración deportiva y mucho más.</p>
+          <p class="text"> <i class="fa-brands fa-youtube"></i> Youtube: <a href="" style="color: black;">Indumentarias
+              Deportivas</a></p>
+          <p class="text"> <i class="fa-solid fa-camera"></i> Instagram: <a href=""
+              style="color: black;">Indumentarias_Deportivas</a></p>
+          <p class="text"> <i class="fa-brands fa-facebook"></i> Facebook: <a href=""
+              style="color: black;">Indumentarias.Deportivas</a></p>
         </div>
       </div>
     </div>
@@ -236,13 +241,13 @@
           <h2 class="title">DONDE ENCONTRARNOS</h2>
           <iframe id="ubi"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d857.3807483205046!2d-62.00674022324582!3d-30.73180770425888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9435031514f117bb%3A0xd34bfbaaf4e0430c!2sColegio%20Ezpeleta!5e0!3m2!1ses-419!2sar!4v1757198052804!5m2!1ses-419!2sar"
-            allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="col-sm-4">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Escucha nuestra playlist mientras prueba los productos!! <i class="fa-regular fa-headphones"></i> </h3>
+              <h3 class="card-title">Escucha nuestra playlist mientras prueba los productos!! <i
+                  class="fa-regular fa-headphones"></i> </h3>
               <p class="card-text">Playlist en Youtube: <a
                   href="https://www.youtube.com/playlist?list=PLOhV0FrFphUdkuWPE2bzJEsGxXMRKVkoM">Playlist</a></p>
             </div>
@@ -285,30 +290,30 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script href="Biblioteca/fontawesome-free-7.0.1-web/js/fontawesome.min.js"></script>
 
-<script>
+  <script>
     function actividad() {
       let cantidad = prompt("Ingrese la cantidad de unidades");
-        let lista = 0;
-        let cantPedidos = 0;
+      let lista = 0;
+      let cantPedidos = 0;
 
-        while (cantidad.toLowerCase() !== "fin") {
-            let num = parseInt(cantidad)
+      while (cantidad.toLowerCase() !== "fin") {
+        let num = parseInt(cantidad)
 
-            if (num > 0 && num <= 500) {
-                lista += num
-                cantPedidos ++
-            } else {
-                alert("Ingresaste una cantidad no valida")
-            }
-
-            cantidad = prompt("Ingrese la cantidad de unidades");
-
+        if (num > 0 && num <= 500) {
+          lista += num
+          cantPedidos++
+        } else {
+          alert("Ingresaste una cantidad no valida")
         }
 
-        alert("Cantidad total pedida: " + lista + "\nCantidad promedio por pedido: " + (lista / cantPedidos))
+        cantidad = prompt("Ingrese la cantidad de unidades");
+
+      }
+
+      alert("Cantidad total pedida: " + lista + "\nCantidad promedio por pedido: " + (lista / cantPedidos))
 
     }
-</script>
+  </script>
 
 </body>
 

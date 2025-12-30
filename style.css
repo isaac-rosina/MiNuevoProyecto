@@ -294,10 +294,19 @@ footer p a:hover {
     background-color: #e6e6e6;
 }
 
+#boton-suport .row{
+    padding: 0px 0px 1rem; 
+    margin: 0px;
+}
+
 .contact-title{
     text-align: center;
     margin: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#redes{
+    margin: 0rem -2rem;
 }
 
 #redes p{
@@ -338,7 +347,7 @@ footer p a:hover {
 }
 
 .list-group a{
-    margin: 0.5rem 0px;
+    margin: 0.5rem;
 }
 
 #Contact-background hr{
@@ -355,7 +364,7 @@ footer p a:hover {
 /* SOBRE NOSOTROS ------------------------------------------------------------------*/
 
 #background-nos{
-    background-color: #b8b5b5;
+    background-color: #d3d2d2;
 }
 
 #nos-inicio {
@@ -370,36 +379,48 @@ footer p a:hover {
 }
 
 #mision{
-    margin: 1rem 0px 2rem;
+    margin: 4rem 0px 2rem;
 }
 
-#mision img{
+#mision .card{
     width: 90%;
-    margin-left: -2.5rem;
+    justify-self: center;
 }
 
-#mision-texto{
+#mision .card-text{
     text-align: center;
     font-size: x-large;
     margin-left: -2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+#mision .card-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
 
 #vision{
-    margin: 2rem 0px;
+    margin: 2rem 0px 3rem;
 }
 
-#vision img{
+#vision .card{
     width: 90%;
-    margin-left: 5.5rem;
+    justify-self: center;
 }
 
-#vision-texto{
+#vision .card-text{
     text-align: center;
     font-size: x-large;
     margin-left: -2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+#vision .card-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
 
 #valores {
     position: relative;
@@ -426,12 +447,12 @@ footer p a:hover {
 
 #values-title {
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:fantasy;
     font-size: clamp(1.5rem, 3vw, 3.5rem);
 }
 
 #values-text {
-    color: rgb(216, 221, 224);
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: clamp(1rem, 2vw, 2rem);
 }
@@ -443,7 +464,8 @@ footer p a:hover {
 #destacar h2{
     text-align: center;
     color: black;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
+    font-family:fantasy
 }
 
 #destacar .row{
@@ -465,4 +487,20 @@ footer p a:hover {
 
 #destacar .card-text{
     font-size: 1.5rem;
+}
+
+#ubi_nos{
+    background-color: rgb(29, 29, 29);
+}
+
+#ubi_nos h2{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#ubi_nos .col-sm-6{
+    margin: 2rem ;
+    width: 40vw;
 }
